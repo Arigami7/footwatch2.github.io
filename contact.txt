@@ -9,7 +9,7 @@
 				<label for="name">Ваше имя:</label><br>
 				<input type="text" id="name" name="name" required><br><br>
 				
-				<label for="email">Ваш email:</label><br>
+				<label for="email">Ваш E-mail:</label><br>
 				<input type="email" id="email" name="email" required><br><br>
 				
 				<label for="message">Сообщение:</label><br>
