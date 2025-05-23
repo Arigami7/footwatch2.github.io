@@ -1,0 +1,87 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-image: url('https://wallpapers.com/images/hd/wayne-rooney-toe-kick-technique-xizoif3sl1aq5sgk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 
+{
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+h1:hover 
+{
+    transform: scale(1.05);
+}
+
+section 
+{
+    margin: 20px;
+    opacity: 0;
+    animation: slideIn 1s forwards;
+}
+
+img 
+{
+    max-width: 100%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+img:hover 
+{
+    transform: scale(1.05); 
+}
+
+footer 
+{
+    margin-top: 20px;
+    transition: transform 0.3s;
+}
+
+footer:hover 
+{
+    transform: scale(1.05); 
+}
+
+
+@keyframes fadeIn 
+{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn 
+{
+    from 
+    {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to 
+    {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+footer a 
+{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover 
+{
+    text-decoration: underline;
+}

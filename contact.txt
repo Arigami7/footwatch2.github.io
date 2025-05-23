@@ -1,0 +1,20 @@
+<p>Контактный телефон: <a href="tel:+79123008026">+79123008026</a></p>
+<p>E-mail: <a href="mailto:footwatch@mail.ru">footwatch@mail.ru</a></p>
+<p>© FootWatch. Все права защищены.</p>
+
+<?php
+	echo '<div id="offers-form">
+			<h3>Форма обратной связи</h3>
+			<form action="send_offers.php" method="post">
+				<label for="name">Ваше имя:</label><br>
+				<input type="text" id="name" name="name" required><br><br>
+				
+				<label for="email">Ваш email:</label><br>
+				<input type="email" id="email" name="email" required><br><br>
+				
+				<label for="message">Сообщение:</label><br>
+				<textarea id="message" name="message" rows="4" required></textarea><br><br>
+				
+				<input type="submit" value="Отправить">
+			</form>
+		  </div>
